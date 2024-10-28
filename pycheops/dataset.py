@@ -73,7 +73,7 @@ import subprocess
 import pickle
 import warnings
 from astropy.units import UnitsWarning
-from photutils import CircularAperture, aperture_photometry
+from photutils.aperture import CircularAperture, aperture_photometry
 import cdspyreadme
 from textwrap import fill, indent
 import os
